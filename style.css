@@ -80,7 +80,6 @@ a:hover{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
     margin-bottom: 2rem;
 }
 
