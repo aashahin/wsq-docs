@@ -9,4 +9,7 @@ if (route === '#index') {
 else if (route === '#database') {
     indexPage.style.display = 'none';
     databasePage.style.display = 'block';
+} else {
+    indexPage.style.display = 'block';
+    databasePage.style.display = 'none';
 }
