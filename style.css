@@ -42,6 +42,9 @@ a:hover{
     color: var(--main-hightlight-color);
 }
 
+.video{
+    margin: 2rem 0;    
+}
 
 .wrapper{
     display: flex;
@@ -50,6 +53,9 @@ a:hover{
     align-items: flex-start;
     padding: 2rem;
 }
+
+
+/* Container Content */
 
 .container-content{
     display: flex;
@@ -131,6 +137,9 @@ a:hover{
     color: var(--main-bg-color);
 }
 
+
+/* Content Table */
+
 .container-table {
     display: flex;
     flex-direction: column;
@@ -147,6 +156,9 @@ a:hover{
     padding: 1rem 3rem;
     width: 100%;
 }
+
+
+/* Responsive */
 
 @media screen and (max-width: 1200px){
     .wrapper{
