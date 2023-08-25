@@ -63,10 +63,6 @@
           <h3>معلومات الدخول</h3>
           <ul class="content__list">
             <li>
-              الرتبة:
-              <span class="code"> مدير </span>
-            </li>
-            <li>
               البريد الإلكتروني:
               <span class="code"> demo@gmail.com </span>
             </li>
@@ -114,6 +110,27 @@
             <li>موفر خدمة CDN</li>
             <li>موفر خدمة إستضافة</li>
           </ul>
+
+          <h2>نوصي ب</h2>
+          <ul class="content__list">
+            <li>
+              شراء الخادم من
+              <a
+                href="https://contabo.com/en/vps/"
+                class="code"
+                target="_blank"
+              >
+                Contabot
+              </a>
+            </li>
+            <li>
+              إستخدام خدمة
+              <a href="https://idrivee2.com/" class="code" target="_blank">
+                E2 Idrive
+              </a>
+              في الCDN
+            </li>
+          </ul>
         </div>
 
         <div id="database">
@@ -129,8 +146,9 @@
             <a
               href="https://www.mongodb.com/try/download/database-tools"
               target="_blank"
-              >إضغط هنا</a
             >
+              <span class="code"> إضغط هنا </span>
+            </a>
           </p>
           <h2>إنشاء قاعدة بيانات علي Mongo Atlas</h2>
 
@@ -145,6 +163,31 @@
               allowfullscreen
             ></iframe>
           </div>
+
+          <h3>تثبيت نظام لينكس علي ويندوز</h3>
+
+          <div class="video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/QiGywiAaKGU?si=DYmrZNQYD-vrhu85"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div id="install">
+          <h1>تثبيت النظام</h1>
+          <p>
+            بعدما قمنا بإنشاء قاعدة البيانات سنحتاج الأن إلي رفع النظام علي
+            السيرفر وحتي نرفعه علي السيرفر سنحتاج أن نرفعه علي موقع <span class="code b">Github</span> أولا
+            ومن ثم نقوم بتثبيته علي السيرفر.
+          </p>
+          <h2>
+            رفع النظام علي <span class="code b">Github</span>
+          </h2>
         </div>
       </div>
       <div class="container-table">
@@ -175,6 +218,13 @@
               href="#database"
               onclick="window.location.hash = 'database';window.location.reload();"
               >تثبيت قاعدة البيانات</a
+            >
+          </li>
+          <li>
+            <a
+              href="#install"
+              onclick="window.location.hash = 'install';window.location.reload();"
+              >تثبيت النظام</a
             >
           </li>
         </ul>
