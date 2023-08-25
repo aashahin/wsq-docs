@@ -4,6 +4,7 @@
   --main-bg-color: #fff;
   --main-hover-color: gray;
   --main-hightlight-color: #af7414;
+  --main-code-color: #f5f5f5;
   --main-font: "IBM Plex Sans Arabic", "Roboto", sans-serif;
   --main-font-light: 400;
   --main-font-normal: 500;
@@ -35,9 +36,18 @@ a:hover {
   color: var(--main-hover-color);
 }
 
-.code {
+.hightlight {
   font-weight: var(--main-font-bold);
   color: var(--main-hightlight-color);
+}
+
+.code {
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: var(--main-font-bold);
+    color: var(--main-code-color);
+    background-color: var(--main-color);
+    padding: 0.5rem 1rem;
 }
 
 .video {
