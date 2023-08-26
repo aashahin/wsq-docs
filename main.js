@@ -53,4 +53,5 @@ if (route === "#index") {
   featuresPage.style.display = "none";
   requirementsPage.style.display = "none";
   installPage.style.display = "none";
+  wsqPage.style.display = "none";
 }
